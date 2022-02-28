@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.apigateway.ApigatewayApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 45.109 s <<< FAILURE! - in com.apigateway.ApigatewayApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.context.ApplicationContextException: Failed to start bean 'eurekaAutoServiceRegistration'; nested exception is java.lang.IllegalArgumentException: Unable to find GatewayFilterFactory with name CircuitBreaker
+Caused by: java.lang.IllegalArgumentException: Unable to find GatewayFilterFactory with name CircuitBreaker
+
